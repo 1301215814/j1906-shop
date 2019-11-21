@@ -1,4 +1,4 @@
-package com.qf.j1906.user.po;
+package com.qf.j1906.common.po;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,9 +9,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class UserInfo {
-    private String username;
-    private String password;
-
-
+public class JdState {
+    private Integer stid;
+    private String stname;
 }
